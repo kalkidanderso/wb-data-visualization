@@ -52,8 +52,14 @@ const Dashboard = () => {
   );
 
   const countries = ['USA', 'ETH', 'BRA', 'IND', 'CHN'];
-  const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8'];
-
+//   const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8'];
+  const colors = [
+    '#FF6B6B',    // Light red
+    '#4ECDC4',    // Light blue 
+    '#FFA500',    // Orange
+    '#9370DB',    // Medium purple
+    '#808000'     // Olive green 
+  ];
   const fetchData = useCallback(async () => {
     setLoading(true);
     setError(null);
