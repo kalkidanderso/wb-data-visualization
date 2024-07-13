@@ -1,0 +1,17 @@
+.dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .controls label {
+    margin-right: 10px;
+  }
+  
+  .controls select, .controls input {
+    margin-left: 5px;
+  }
+  
